@@ -4,7 +4,7 @@ export default () => ({
     const svgs = document.querySelectorAll('[data-svg]')
     for (const svg of svgs) {
       const fileName = svg.getAttribute('data-svg')
-      const file = await fetch(fileName).then(response => response.text())
+      const file = await fetch(location.pathname + fileName).then(response => response.text())
       svg.innerHTML = file.replaceAll('inkscape:label', 'inkscape-label')
       svg.children[0].removeAttribute('width')
       svg.children[0].removeAttribute('height')
