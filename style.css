@@ -1,0 +1,127 @@
+@import url("https://cdn.skypack.dev/-/reveal.js@v4.3.1-326jYhbvhV3tINENPGwx/dist=es2019,mode=raw/dist/reveal.css");
+@import url("https://cdn.skypack.dev/-/reveal.js@v4.3.1-326jYhbvhV3tINENPGwx/dist=es2019,mode=raw/dist/theme/simple.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab&display=swap");
+:root {
+  --om-red: rgb(210, 38, 48);
+  --r-heading-font: "Roboto Slab";
+  --r-main-font: "Lato";
+  --r-background-color: white;
+  --r-link-color: var(--om-red);
+  --r-heading-color: var(--om-red);
+  --r-main-color: rgb(59, 59, 59);
+  --r-main-font-size: 38px;
+}
+
+.om-logo {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  width: 130px;
+}
+
+.no-logo .om-logo {
+  opacity: 0;
+}
+
+.no-logo .reveal:after {
+  opacity: 0;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: 1.7;
+}
+
+.reveal:after {
+  display: block;
+  height: 100vh;
+  width: 90px;
+  background-color: white;
+  content: "";
+  position: absolute;
+  right: 0;
+  z-index: 100;
+}
+
+.reveal .slides {
+  display: flex;
+  text-align: left;
+}
+.reveal .controls,
+.reveal .progress {
+  z-index: 1000;
+}
+.reveal section {
+  padding: 50px;
+  padding-inline-end: 90px;
+  align-self: center;
+  flex: 1 1 auto;
+}
+
+body .reveal .slide-background.right .slide-background-content {
+  width: 66%;
+  right: 90px;
+}
+body .reveal section.right {
+  width: calc(34% - 90px) !important;
+}
+
+p {
+  font-size: 50px;
+}
+
+/* [data-svg] {
+  max-height: 60%;
+  max-width: 70%;
+} */
+
+li::marker {
+  color: var(--om-red);
+}
+
+section.verse {
+  color: white;
+}
+
+section.verse > * {
+  margin: auto;
+  /* max-width: 1200px; */
+}
+
+section.verse p {
+  font-size: 100px;
+  text-align: center;
+  padding-inline: 200px;
+}
+
+.muted {
+  opacity: .7;
+  font-size-adjust: .3;
+}
+
+iframe {
+  border: none;
+  overflow: hidden;
+}
+
+/* .reveal > .backgrounds .slide-background.past,
+.reveal .slides > section.past {
+  transform: translate(-100vw, 0) !important;
+  opacity: 0 !important;
+}
+
+.reveal > .backgrounds .slide-background.future,
+.reveal .slides > section.future {
+  transform: translate(100vw, 0) !important;
+  opacity: 0 !important;
+} */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.7 !important;
+}
+
+.percentage-number {
+  font-size: 220px;
+}
