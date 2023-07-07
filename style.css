@@ -125,3 +125,33 @@ h1, h2, h3, h4, h5, h6 {
 .percentage-number {
   font-size: 220px;
 }
+
+.with-highlights .highlight {
+  position: relative;
+  display: inline-block;
+  color: rgb(34, 21, 21);
+  font-family: var(--r-heading-font);
+  margin-inline: 40px;
+}
+
+.with-highlights .highlight:after {
+  z-index: -1;
+  content: '';
+  display: block;
+  background-color: white;
+  width: calc(100% + 60px);
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%) skew(-10deg);
+}
+
+.image-with-border .slide-background-content {
+  border-right: 1px solid gray;
+  box-shadow: 0 0 100px 0 rgba(0, 0, 0, .3);
+}
+
+iframe {
+  pointer-events: none;
+}
