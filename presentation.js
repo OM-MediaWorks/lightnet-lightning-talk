@@ -16,8 +16,6 @@ const init = () => {
       controls: false,
       width: window.innerWidth,
       height: window.innerHeight,
-      // transition: 'slide',
-      // backgroundTransition: 'slide',
    })   
 }
 
