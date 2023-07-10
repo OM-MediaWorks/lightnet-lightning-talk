@@ -1,6 +1,5 @@
-import Reveal from 'https://cdn.skypack.dev/reveal.js';
-import Notes from 'https://cdn.skypack.dev/reveal.js/plugin/notes/notes.js';
-import _ from 'https://cdn.skypack.dev/lodash';
+import Reveal from 'reveal.js';
+import _ from 'lodash';
 import SvgFragment from './reveal-svg-fragment.js'
 
 let deck
@@ -12,7 +11,7 @@ const init = () => {
    deck.initialize({
       hash: true,
       controlsTutorial: false,
-      plugins: [Notes, SvgFragment],
+      plugins: [SvgFragment],
       controls: false,
       width: window.innerWidth,
       height: window.innerHeight,
