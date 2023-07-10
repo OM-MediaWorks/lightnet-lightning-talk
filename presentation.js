@@ -2,6 +2,10 @@ import Reveal from 'reveal.js';
 import _ from 'lodash';
 import SvgFragment from './reveal-svg-fragment.js'
 
+if (localStorage.add) {
+   document.body.querySelector('#additional h2').innerHTML += localStorage.add
+}
+
 let deck
 
 const init = () => {
