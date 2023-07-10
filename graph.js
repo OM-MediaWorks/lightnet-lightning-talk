@@ -1,4 +1,4 @@
-import {Runtime, Library, Inspector} from "https://esm.sh/@observablehq/runtime";
+import {Runtime, Inspector} from "@observablehq/runtime";
 
 const step = parseInt(location.hash.substring(1))
 document.body.classList.add('step-' + step)
@@ -149,11 +149,6 @@ const generateData = async () => {
 
 export default function define(runtime, observer) {
   const main = runtime.module();
-  function toString() { return this.url; }
-  const fileAttachments = new Map([
-    ["graph.json", {url: new URL("./files/data.json", import.meta.url), mimeType: "application/json", toString}]
-  ]);
-  main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer("chart")).define("chart", ["d3","data","invalidation"], _chart);
   main.variable(observer("data")).define("data", ["FileAttachment"], generateData);
   return main;
