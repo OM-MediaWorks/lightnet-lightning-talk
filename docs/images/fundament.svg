@@ -22,15 +22,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.8842315"
-     inkscape:cx="436.25212"
-     inkscape:cy="214.67638"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="421.08209"
+     inkscape:cy="310.06632"
      inkscape:window-width="2560"
      inkscape:window-height="1376"
      inkscape:window-x="1920"
-     inkscape:window-y="204"
+     inkscape:window-y="203"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer4"
      inkscape:lockguides="false" />
   <defs
      id="defs18" />
@@ -52,68 +52,15 @@
      id="layer8"
      inkscape:label="Core">
     <rect
-       x="184.12308"
-       y="270"
-       width="590"
-       height="200"
+       x="237.41138"
+       y="255.88312"
+       width="682.49933"
+       height="194.89294"
        fill="#dae8fc"
        stroke="#6c8ebf"
        pointer-events="all"
        id="rect22"
-       style="display:inline" />
-    <text
-       x="478.62308"
-       y="298.5"
-       fill="#000000"
-       font-family="Helvetica"
-       font-size="12px"
-       text-anchor="middle"
-       id="text24"
-       style="display:inline">LightNet Core</text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer7"
-     inkscape:label="Base"
-     style="display:inline">
-    <rect
-       x="484.12308"
-       y="390"
-       width="270"
-       height="60"
-       fill="#f5f5f5"
-       stroke="#666666"
-       pointer-events="all"
-       id="rect30"
-       style="display:inline" />
-    <rect
-       x="204.12308"
-       y="390"
-       width="270"
-       height="60"
-       fill="#f5f5f5"
-       stroke="#666666"
-       pointer-events="all"
-       id="rect38"
-       style="display:inline" />
-    <text
-       x="618.62311"
-       y="423.5"
-       fill="#333333"
-       font-family="Helvetica"
-       font-size="12px"
-       text-anchor="middle"
-       id="text32"
-       style="display:inline">Media metadata</text>
-    <text
-       x="338.62308"
-       y="423.5"
-       fill="#333333"
-       font-family="Helvetica"
-       font-size="12px"
-       text-anchor="middle"
-       id="text40"
-       style="display:inline">File storage</text>
+       style="display:inline;stroke:none;stroke-width:0.999999" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -122,39 +69,85 @@
      style="display:inline"
      transform="translate(79.901711)">
     <rect
-       x="124.22137"
-       y="320"
-       width="270"
-       height="60"
+       x="180.6452"
+       y="280.77963"
+       width="312.33017"
+       height="69.410294"
        fill="#ffffff"
        stroke="#000000"
        pointer-events="all"
-       id="rect46" />
+       id="rect46"
+       style="stroke:none;stroke-width:0.999999" />
     <text
-       x="258.72137"
-       y="353.5"
+       x="336.2406"
+       y="319.52545"
        fill="#000000"
        font-family="Helvetica"
-       font-size="12px"
+       font-size="13.8817px"
        text-anchor="middle"
-       id="text48">Groups</text>
+       id="text48"
+       transform="scale(0.9999742,1.0000258)"
+       style="stroke-width:0.999999">Groups</text>
     <rect
-       x="404.22137"
-       y="320"
-       width="270"
-       height="60"
+       x="504.54324"
+       y="280.77963"
+       width="312.33017"
+       height="69.410294"
        fill="#ffffff"
        stroke="#000000"
        pointer-events="all"
-       id="rect54" />
+       id="rect54"
+       style="stroke:none;stroke-width:0.999999" />
     <text
-       x="538.72137"
-       y="353.5"
+       x="660.14691"
+       y="319.52545"
        fill="#000000"
        font-family="Helvetica"
-       font-size="12px"
+       font-size="13.8817px"
        text-anchor="middle"
-       id="text56">Users</text>
+       id="text56"
+       transform="scale(0.9999742,1.0000258)"
+       style="stroke-width:0.999999">Users</text>
+    <rect
+       x="504.54324"
+       y="361.7583"
+       width="312.33017"
+       height="69.410294"
+       fill="#f5f5f5"
+       stroke="#666666"
+       pointer-events="all"
+       id="rect30"
+       style="display:inline;fill:#ffffff;stroke:none;stroke-width:0.999999" />
+    <rect
+       x="180.6452"
+       y="361.7583"
+       width="312.33017"
+       height="69.410294"
+       fill="#f5f5f5"
+       stroke="#666666"
+       pointer-events="all"
+       id="rect38"
+       style="display:inline;fill:#ffffff;stroke:none;stroke-width:0.999999" />
+    <text
+       x="660.14691"
+       y="400.50204"
+       fill="#333333"
+       font-family="Helvetica"
+       font-size="13.8817px"
+       text-anchor="middle"
+       id="text32"
+       style="display:inline;stroke-width:0.999999"
+       transform="scale(0.9999742,1.0000258)">Media metadata</text>
+    <text
+       x="336.2406"
+       y="400.50204"
+       fill="#333333"
+       font-family="Helvetica"
+       font-size="13.8817px"
+       text-anchor="middle"
+       id="text40"
+       style="display:inline;stroke-width:0.999999"
+       transform="scale(0.9999742,1.0000258)">File storage</text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -163,22 +156,25 @@
      style="display:inline"
      transform="translate(79.901711)">
     <rect
-       x="104.22137"
-       y="220"
-       width="590"
-       height="40"
+       x="157.50963"
+       y="202.72571"
+       width="682.49933"
+       height="46.273521"
        fill="#ffe6cc"
        stroke="#d79b00"
        pointer-events="all"
-       id="rect62" />
+       id="rect62"
+       style="stroke:none;stroke-width:0.999999" />
     <text
-       x="398.72137"
-       y="243.5"
+       x="498.19373"
+       y="229.9055"
        fill="#000000"
        font-family="Helvetica"
-       font-size="12px"
+       font-size="13.8817px"
        text-anchor="middle"
-       id="text64">API</text>
+       id="text64"
+       transform="scale(0.9999742,1.0000258)"
+       style="stroke-width:0.999999">API</text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -186,23 +182,70 @@
      inkscape:label="SDK"
      style="display:inline">
     <rect
-       x="184.12308"
-       y="170"
-       width="590"
-       height="40"
+       x="237.41138"
+       y="149.22426"
+       width="682.49933"
+       height="46.273521"
        fill="#e1d5e7"
        stroke="#9673a6"
        pointer-events="all"
        id="rect70"
-       style="display:inline" />
+       style="display:inline;stroke:none;stroke-width:0.999999" />
     <text
-       x="478.62308"
-       y="193.5"
+       x="578.09753"
+       y="176.40544"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="13.8817px"
+       text-anchor="middle"
+       id="text72"
+       transform="scale(0.9999742,1.0000258)"
+       style="stroke-width:0.999999">TypeScript SDK</text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Text1">
+    <path
+       id="rect10645"
+       style="color:#000000;fill:#436aa2;stroke-width:1;-inkscape-stroke:none"
+       d="m 225.61883,130.31877 c -1.50264,0.0888 -1.81219,0.28803 -2.17024,0.48322 -0.085,0.0337 -0.16555,0.0699 -0.24586,0.11021 -0.0884,0.0371 -0.12531,0.0788 -0.2522,0.11232 l 0.007,0.0742 c -1.01321,0.65035 -1.62013,1.83889 -1.57894,3.50757 v 153.1311 c 0.0308,2.74556 -2.68695,3.91849 -4.47611,4.25782 v 2.12785 c 1.78916,0.33934 4.50696,1.51226 4.47611,4.25782 v 162.94381 c -0.0616,2.49877 1.23284,4.04045 3.36133,4.07131 h 0.47474 c 0.45415,0.0805 0.36876,0.15535 1.57682,0.29247 H 935.03691 V 130.31881 Z m -0.426,2.27832 H 932.75632 V 463.40801 H 226.15926 v -0.0169 h -0.46202 c -1.54237,-0.0308 -1.94346,-0.46224 -1.94346,-2.06639 v -163.408 c -0.0308,-2.56048 -2.96414,-4.22674 -4.59904,-4.87456 1.78914,-0.64784 4.59904,-2.06638 4.59904,-4.84277 V 134.60627 c 0,-1.39254 0.3504,-1.87889 1.43905,-2.00918 z"
+       sodipodi:nodetypes="cccccccccccccccccccccccsccssc" />
+    <text
+       x="198.82474"
+       y="298.10696"
        fill="#000000"
        font-family="Helvetica"
        font-size="12px"
        text-anchor="middle"
-       id="text72">TypeScript SDK</text>
+       id="text24"
+       style="font-size:27.5867px;display:inline;fill:#436aa2;fill-opacity:1;stroke-width:0.999999"
+       transform="scale(0.9999742,1.0000258)"><tspan
+         sodipodi:role="line"
+         id="tspan8865"
+         x="198.82474"
+         y="298.10696"
+         style="font-size:27.5867px;text-align:end;text-anchor:end;fill:#436aa2;fill-opacity:1;stroke-width:0.999999">LightNet Core</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Text2">
+    <text
+       x="162.63068"
+       y="85.631386"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="12px"
+       text-anchor="middle"
+       id="text112"
+       style="font-size:27.5867px;display:inline;fill:#569952;fill-opacity:1;stroke-width:0.999999"
+       transform="scale(0.9999742,1.0000258)">Apps</text>
+    <path
+       d="m 225.90061,44.227994 h -1.41897 c -2.12849,0.03085 -3.42408,1.573304 -3.36239,4.072078 v 24.450544 c 0.0308,2.745568 -2.68598,3.917834 -4.47514,4.257172 v 2.12857 c 1.78916,0.339349 4.50599,1.511602 4.47514,4.257182 v 26.62078 c -0.0616,2.49877 1.2339,4.04123 3.36239,4.07208 h 1.41897 v -2.0052 h -0.46271 c -1.54236,-0.0308 -1.94339,-0.46273 -1.94339,-2.06688 V 82.93079 c -0.0308,-2.56047 -2.96361,-4.22632 -4.59853,-4.874147 1.78916,-0.647816 4.59853,-2.06687 4.59853,-4.843289 V 48.300072 c 0,-1.604151 0.40103,-2.036038 1.94339,-2.066889 h 0.46271 z"
+       id="path9691"
+       style="font-size:29.8195px;font-family:Helvetica;text-anchor:middle;display:inline;fill:#569952;stroke-width:0.999999"
+       sodipodi:nodetypes="ccccccccccccsccssccc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -210,34 +253,20 @@
      inkscape:label="CoreApps"
      style="display:inline"
      transform="translate(79.901711)">
-    <rect
-       x="104.22137"
-       y="40"
-       width="310"
-       height="120"
-       fill="#fff2cc"
-       stroke="#d6b656"
-       pointer-events="none"
-       id="rect110" />
-    <text
-       x="258.72137"
-       y="68.5"
-       fill="#000000"
-       font-family="Helvetica"
-       font-size="12px"
-       text-anchor="middle"
-       id="text112">Core Apps</text>
     <g
-       id="g3850">
+       id="g3850"
+       transform="matrix(1.1567784,0,0,1.1568381,26.4652,-59.49619)"
+       style="stroke-width:0.864448">
       <rect
          x="114.22137"
          y="90"
-         width="90"
+         width="69.460892"
          height="60"
          fill="#d5e8d4"
          stroke="#82b366"
          pointer-events="none"
-         id="rect118" />
+         id="rect118"
+         style="stroke:none;stroke-width:0.864448" />
       <text
          x="158.72137"
          y="123.5"
@@ -246,15 +275,19 @@
          font-size="12px"
          text-anchor="middle"
          id="text120"
-         style="white-space:pre;inline-size:164.25;display:inline"
-         transform="translate(0,0.736)"
+         style="white-space:pre;inline-size:164.25;display:inline;stroke-width:0.77305"
+         transform="translate(-9.3668911,0.736)"
          xml:space="preserve"><tspan
            x="158.72137"
            y="123.5"
-           id="tspan4639">Administration</tspan></text>
+           id="tspan14069"><tspan
+             style="stroke-width:0.864448"
+             id="tspan14067">Admin UI</tspan></tspan></text>
     </g>
     <g
-       id="g3856">
+       id="g3856"
+       transform="matrix(1.1567784,0,0,1.1568381,6.3794482,-59.49619)"
+       style="stroke-width:0.864448">
       <rect
          x="214.22137"
          y="90"
@@ -263,7 +296,8 @@
          fill="#d5e8d4"
          stroke="#82b366"
          pointer-events="none"
-         id="rect126" />
+         id="rect126"
+         style="stroke:none;stroke-width:0.77305" />
       <text
          x="258.72137"
          y="116.808"
@@ -271,18 +305,23 @@
          font-family="Helvetica"
          font-size="12px"
          text-anchor="middle"
-         id="text128"><tspan
+         id="text128"
+         style="stroke-width:0.77305"><tspan
            sodipodi:role="line"
            id="tspan3522"
            x="258.72137"
-           y="116.808">Channel</tspan><tspan
+           y="116.808"
+           style="stroke-width:0.864448">Channel</tspan><tspan
            sodipodi:role="line"
            id="tspan3524"
            x="258.72137"
-           y="131.808">Viewer</tspan></text>
+           y="131.808"
+           style="stroke-width:0.864448">Viewer</tspan></text>
     </g>
     <g
-       id="g3862">
+       id="g3862"
+       transform="matrix(1.1567784,0,0,1.1568381,11.025228,-59.49619)"
+       style="stroke-width:0.864448">
       <rect
          x="314.22137"
          y="90"
@@ -291,7 +330,8 @@
          fill="#d5e8d4"
          stroke="#82b366"
          pointer-events="none"
-         id="rect134" />
+         id="rect134"
+         style="fill:#f9fbdc;fill-opacity:1;stroke:none;stroke-width:0.77305" />
       <text
          x="358.72137"
          y="116.736"
@@ -299,15 +339,18 @@
          font-family="Helvetica"
          font-size="12px"
          text-anchor="middle"
-         id="text136"><tspan
+         id="text136"
+         style="stroke-width:0.77305"><tspan
            sodipodi:role="line"
            id="tspan3526"
            x="358.72137"
-           y="116.736">Bundled</tspan><tspan
+           y="116.736"
+           style="stroke-width:0.864448">Bundled</tspan><tspan
            sodipodi:role="line"
            id="tspan3528"
            x="358.72137"
-           y="131.73599">Media</tspan></text>
+           y="131.73599"
+           style="stroke-width:0.864448">Media</tspan></text>
     </g>
   </g>
   <g
@@ -316,78 +359,25 @@
      inkscape:label="OtherApps"
      style="display:inline">
     <rect
-       x="634.12311"
-       y="40"
-       width="140"
-       height="120"
-       fill="#fff2cc"
-       stroke="#d6b656"
-       pointer-events="none"
-       id="rect78"
-       style="display:inline" />
-    <text
-       x="703.62311"
-       y="68.5"
-       fill="#000000"
-       font-family="Helvetica"
-       font-size="12px"
-       text-anchor="middle"
-       id="text80">Your Apps</text>
-    <rect
-       x="644.12311"
-       y="90"
-       width="120"
-       height="60"
-       fill="#d5e8d4"
-       stroke="#82b366"
-       stroke-dasharray="8, 8"
-       pointer-events="none"
-       id="rect86"
-       style="display:inline" />
-    <text
-       x="703.62311"
-       y="123.5"
-       fill="#000000"
-       font-family="Helvetica"
-       font-size="12px"
-       text-anchor="middle"
-       id="text88">?</text>
-    <rect
-       x="504.12308"
-       y="40"
-       width="120"
-       height="120"
-       fill="#fff2cc"
-       stroke="#d6b656"
-       pointer-events="none"
-       id="rect94"
-       style="display:inline" />
-    <text
-       x="563.62311"
-       y="68.5"
-       fill="#000000"
-       font-family="Helvetica"
-       font-size="12px"
-       text-anchor="middle"
-       id="text96">Community Apps</text>
-    <rect
-       x="514.12311"
-       y="90"
-       width="100"
-       height="60"
+       x="575.53345"
+       y="44.619247"
+       width="342.91656"
+       height="69.410263"
        fill="#d5e8d4"
        stroke="#82b366"
        stroke-dasharray="8, 8"
        pointer-events="none"
        id="rect102"
-       style="display:inline" />
+       style="display:inline;fill:none;fill-opacity:1;stroke:#95c292;stroke-width:0.999999;stroke-opacity:1" />
     <text
-       x="563.62311"
-       y="123.5"
+       x="746.9624"
+       y="85.122589"
        fill="#000000"
        font-family="Helvetica"
-       font-size="12px"
+       font-size="13.8817px"
        text-anchor="middle"
-       id="text104">?</text>
+       id="text104"
+       transform="scale(0.9999742,1.0000258)"
+       style="stroke-width:0.999999">Community apps</text>
   </g>
 </svg>

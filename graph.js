@@ -31,12 +31,12 @@ function _chart(d3,data,invalidation)
       .attr("viewBox", [-width / 2, -height / 2, width, height])
       .attr("style", "max-width: 100%; height: auto;");
 
-  svg.append("circle")
-    .attr("r", 600)
-    .attr("fill", () => 'white')
-    .attr("stroke-width", 2)
-    .attr("class", "only-step-3 only-step-4")
-    .attr("stroke", () => color(''));
+  // svg.append("circle")
+  //   .attr("r", 600)
+  //   .attr("fill", () => 'white')
+  //   .attr("stroke-width", 2)
+  //   .attr("class", "only-step-3 only-step-4")
+  //   .attr("stroke", () => color(''));
 
   // Add a line for each link, and a circle for each node.
   const link = svg.append("g")

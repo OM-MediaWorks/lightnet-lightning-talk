@@ -2,8 +2,14 @@ import Reveal from 'reveal.js';
 import _ from 'lodash';
 import SvgFragment from './reveal-svg-fragment.js'
 
-if (localStorage.add) {
+if (localStorage.add && document.body.querySelector('#additional h2')) {
    document.body.querySelector('#additional h2').innerHTML += localStorage.add
+}
+
+const templates = document.querySelectorAll('template:not(.hidden)')
+for (const template of templates) {
+   template.insertAdjacentHTML('afterend', template.innerHTML)
+   template.remove()
 }
 
 let deck
