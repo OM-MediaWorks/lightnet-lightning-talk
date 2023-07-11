@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LightNet lightning talk</title>
   <script type="module" src="./presentation.js"></script>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.scss">
   <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
 <body>
@@ -16,30 +16,32 @@
   <div class="reveal reveal-viewport">  
     <div class="slides">
 
-      <section class="right" data-background="./images/space.jpg" data-background-size="contain">
+      <section class="right introduction" data-background="./images/space.jpg" data-background-size="contain">
         <h1>LightNet</h1>
-        <p>Media community platforms<br />for groups of Jesus followers and ministries</p>
+        <h3 class="black">Media community platforms <em>for</em> groups of Jesus followers and ministries</h3>
       </section>
 
-      <template id="track-record" class="hidden">
-        <section>
-          <h1>This talk is about what<br> we see for the future</h1>
-        </section>
-  
+      <section>
+        <h2>When I was 14, I built a solution to record sermons...</h2>
+      </section>
+
+      <template id="track-record">
         <section class="right" data-background="./images/library.jpg" data-background-size="contain">
-          <h2>But first some of what we have built already</h2>
+          <h2 class="black">First some of what we have built already...</h2>
+          <br>
+          <h2>...then into future vision!</h2>
         </section>
 
-        <section data-background="./images/desktop.png" data-background-size="cover"></section>
-        <section data-background="./images/desktop2.png" data-background-size="cover"></section>
-        <section data-background="./images/desktop3.png" data-background-size="cover"></section>
-        <section data-background="./images/admin.png" data-background-size="cover"></section>
+        <section data-state="no-logo" data-background="./images/desktop.png" data-background-size="cover"></section>
+        <section data-state="no-logo" data-background="./images/desktop2.png" data-background-size="cover"></section>
+        <section data-state="no-logo" data-background="./images/desktop3.png" data-background-size="cover"></section>
+        <section data-state="no-logo" data-background="./images/admin.png" data-background-size="cover"></section>
         
-        <section data-background-color="#ddd" data-background-image="./images/mobile.png" data-background-size="inherit"></section>
-        <section data-background-color="#ddd" data-background-image="./images/mobile2.png" data-background-size="inherit"></section>
+        <section data-state="no-logo" data-background-color="#ddd" data-background-image="./images/mobile.png" data-background-size="inherit"></section>
+        <section data-state="no-logo" data-background-color="#ddd" data-background-image="./images/mobile2.png" data-background-size="inherit"></section>
 
-        <!-- <section data-background="./images/nadija.png" data-background-size="cover"></section>
-        <section data-background="./images/nadija2.png" data-background-size="cover"></section> -->
+        <section data-state="no-logo" data-background="./images/nadija.png" data-background-size="cover"></section>
+        <section data-state="no-logo" data-background="./images/nadija2.png" data-background-size="cover"></section>
       </template>
 
       <template id="biblical-base">
@@ -70,80 +72,111 @@
           <h3>What if we could connect better and more?<br><br>And help each other on the way?</h3>
         </section>
   
-        <section id="additional">
-          <h1>This illustration is<br> true for many things..</h2>
+        <section class="additional">
+          <h1>This illustration is true for many things..</h2>
         </section>  
       </template>
  
       <template id="how-can-we">
-        <section>
-          <h1>How can we make<br> better use of media<br> for the Kingdom?</h1>
+        <section data-state="question">
+          <h1>How can we make better use of media for the Kingdom?</h1>
         </section>
         
-        <section>
-          <h1>How can we make that available <br>for groups of Jesus followers globally?</h1>
+        <section data-state="question">
+          <h1>And share that with any group of Jesus followers globally?</h1>
         </section>
   
-        <section>
-          <h1>How can we easily find and<br> distribute Christian media,<br>in any language?</h1>
+        <section data-state="question">
+          <h1>How can we easily find and distribute Christian media, in any language?</h1>
         </section>
   
-        <section>
-          <h1>How can we share development<br>and make it easy to create apps?</h1>
+        <section data-state="question">
+          <h1>And share development?</h1>
         </section>
       </template>
 
       <template id="answer">
-        <section data-background="#d22630">
+        <section class="the-wordpress" data-background="#d22630">
           <h2>We want to create</h2>
-          <h1>the "<span class="fragment fade-in-then-out">WordPress</span><span class="fragment fade-in-then-out">YouTube</span><span class="fragment fade-in-then-out">Spotify</span>" for any<br>group of Jesus followers</h1>
-          <h2 class="fragment">(With you and other developers and other organisations)</h2>
+          <h1>the "<span class="fragment fade-out" data-fragment-index="1">WordPress</span><span class="fragment fade-in-then-out" data-fragment-index="1">YouTube</span><span class="fragment fade-in">Spotify</span>"</h1>
+          <h2>for any group of Jesus followers</h2>
         </section>
-  
-        <!-- <section>
-          <h1><span class="percentage-number">43.1%</span> of websites<br>on the web are WordPress</h1>
-        </section> -->
-  
+
         <section>
-          <h2>But instead of blogging and WordPress, think:</h2>
-          <h1>Vibrant communities <br>of Jesus followers</h1>
+          <h2>But instead of</h2>
+          <h1><s>WordPress, YouTube and Spotify</s></h1>
+          <h2><em>Think...</em></h2>
         </section>
-  
+    
+        <section data-state="confetti" data-background-color="#edfcf1" class="vibrant">
+          <h1>Vibrant communities of Jesus followers</h1>
+        </section>
+
+        <section class="vcjf">
+          <h3>In these communities people:</h3>
+          <br>
+          <ul>
+            <li class="fragment fade-in-then-semi-out">Deepen relationships with God and each other</li>
+            <li class="fragment fade-in-then-semi-out">Have access to great media such as videos, eBooks, sermons, bible studies, courses and more</li>
+            <li class="fragment fade-in-then-semi-out">Engage with media and their community in a secure and personal way</li>
+          </ul>
+        </section>
+
         <section>
-          <h1>In these communities people deepen their relationships with God and each other</h1>
+          <h1>We want to do this together, with you, other developers and organisations</h1>
         </section>
-  
-        <section>
-          <h1>Supported by great media such as videos, eBooks, sermons, bible studies, courses and more</h1>
-        </section>
+
         <section class="right" data-background="./images/space.jpg" data-background-size="contain">
-          <h3>But why all these images of networks / graphs?</h3>
+          <h3>But why all these images of graphs?</h3>
         </section>  
       </template>
 
       <template id="technical">
-        <section data-background="white">
+        <section class="svg" data-background="white">
           <div data-svg="./images/overview.svg" data-svg-fragments="Sharing,LightNetToLightNet,LightNetToApp,DataEmbeds,SharedArchive,Library,YourApp"></div>
         </section>
   
-        <section data-background="white">
+        <section class="svg" data-background="white">
           <div data-svg="./images/fundament.svg" data-svg-fragments="Fundament,Text1,Text2,API,SDK,CoreApps,OtherApps"></div>
         </section>
       </template>
 
-      <section data-background="./images/space.jpg" data-background-size="cover"></section>
-
-      <!-- <section>
-        <h1>Tech stack</h1>
-        <h2>Language: TypeScript front and backend, JSX</h2>
-        <h2>Tooling / frameworks: Vite, Deno, React</h2>
-        <h2>Data: Apache Jena, RDF, SHACL, schema.org</h2>
-        <h2>Infrastructure: Deno, Docker, TerraForm, VPS, Ansible, mTLS</h2>
-        <h2>Cloud Vendors: CloudFlare, VPS, S3 storage</h2>
-      </section> -->
+      <section>
+        <h2>Do you want to help? Or know somebody who would?</h2>
+        <h2>Or is your mind now filled with questions?</h2>
+        <br>
+        <h1>Please reach out to us, we would love to talk!</h1>
+      </section>  
 
     </div>
   </div>
+
+
+
+  <div class="confetti">
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+  </div>
+  
 
 </body>
 </html>

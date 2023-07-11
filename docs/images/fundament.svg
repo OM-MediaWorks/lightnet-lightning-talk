@@ -22,15 +22,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="421.08209"
-     inkscape:cy="310.06632"
+     inkscape:zoom="5.6568544"
+     inkscape:cx="350.99012"
+     inkscape:cy="70.091958"
      inkscape:window-width="2560"
      inkscape:window-height="1376"
      inkscape:window-x="1920"
      inkscape:window-y="203"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="g3850"
      inkscape:lockguides="false" />
   <defs
      id="defs18" />
@@ -260,7 +260,7 @@
       <rect
          x="114.22137"
          y="90"
-         width="69.460892"
+         width="80.595901"
          height="60"
          fill="#d5e8d4"
          stroke="#82b366"
@@ -276,22 +276,20 @@
          text-anchor="middle"
          id="text120"
          style="white-space:pre;inline-size:164.25;display:inline;stroke-width:0.77305"
-         transform="translate(-9.3668911,0.736)"
+         transform="translate(-4.1773862,-0.434)"
          xml:space="preserve"><tspan
            x="158.72137"
            y="123.5"
-           id="tspan14069"><tspan
-             style="stroke-width:0.864448"
-             id="tspan14067">Admin UI</tspan></tspan></text>
+           id="tspan3611">LightNet UI</tspan></text>
     </g>
     <g
        id="g3856"
        transform="matrix(1.1567784,0,0,1.1568381,6.3794482,-59.49619)"
        style="stroke-width:0.864448">
       <rect
-         x="214.22137"
+         x="225.94766"
          y="90"
-         width="90"
+         width="78.273712"
          height="60"
          fill="#d5e8d4"
          stroke="#82b366"
@@ -299,8 +297,8 @@
          id="rect126"
          style="stroke:none;stroke-width:0.77305" />
       <text
-         x="258.72137"
-         y="116.808"
+         x="265.48651"
+         y="124.236"
          fill="#000000"
          font-family="Helvetica"
          font-size="12px"
@@ -308,15 +306,10 @@
          id="text128"
          style="stroke-width:0.77305"><tspan
            sodipodi:role="line"
-           id="tspan3522"
-           x="258.72137"
-           y="116.808"
-           style="stroke-width:0.864448">Channel</tspan><tspan
-           sodipodi:role="line"
            id="tspan3524"
-           x="258.72137"
-           y="131.808"
-           style="stroke-width:0.864448">Viewer</tspan></text>
+           x="265.48651"
+           y="124.236"
+           style="stroke-width:0.864448">Admin UI</tspan></text>
     </g>
     <g
        id="g3862"
